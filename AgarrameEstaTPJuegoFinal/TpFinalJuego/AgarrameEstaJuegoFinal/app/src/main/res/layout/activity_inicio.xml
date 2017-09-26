@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="AGARRAME ESTA"
-        android:textColor="#FE2E2E"
+        android:textColor="#E38300"
         android:textSize="20dp"
         android:textAlignment="center"/>
     <ImageView
@@ -21,8 +21,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#FE2E2E"
-        android:textColorHint="#FE2E2E"
+        android:textColor="#E38300"
+        android:textColorHint="#E38300"
         android:hint="Nombre"
         android:id="@+id/Username"
         android:layout_marginLeft="50dp"
@@ -45,13 +45,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Femenino"
-            android:textColor="#FE2E2E"
+            android:textColor="#E38300"
             android:id="@+id/RadioFem"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Masculino"
-            android:textColor="#FE2E2E"
+            android:textColor="#E38300"
             android:id="@+id/RadioMasc"/>
     </RadioGroup>
 
@@ -65,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Eres un "
-        android:textColor="#FE2E2E"
+        android:textColor="#E38300"
         android:textSize="20dp"
         android:textAlignment="center"/>
     <TextView
@@ -73,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="mono"
-        android:textColor="#FE2E2E"
+        android:textColor="#E38300"
         android:textSize="20dp"
         android:textAlignment="center"
         android:id="@+id/TextoMono"/>
@@ -82,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" agarra solo las bananas"
-        android:textColor="#FE2E2E"
+        android:textColor="#E38300"
         android:textSize="20dp"
         android:textAlignment="center"/>
 
@@ -91,7 +91,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text=" antes de que caigan al suelo"
-    android:textColor="#FE2E2E"
+    android:textColor="#E38300"
     android:textSize="20dp"
     android:textAlignment="center"/>
     <Button
@@ -99,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
-        android:background="#FE2E2E"
+        android:background="#E38300"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
         android:text="JUGAR"

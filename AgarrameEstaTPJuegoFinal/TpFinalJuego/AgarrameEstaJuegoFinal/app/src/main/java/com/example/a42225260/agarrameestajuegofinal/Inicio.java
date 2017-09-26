@@ -1,6 +1,7 @@
 package com.example.a42225260.agarrameestajuegofinal;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v4.app.Fragment;
@@ -36,6 +37,7 @@ public class Inicio extends AppCompatActivity {
     public void BotonJugar(View vista)
     {   String NombreUsuario;
         String Sexo;
+        Sexo="";
         EditText Nombre;
         Nombre= (EditText)findViewById(R.id.Username);
 
@@ -48,31 +50,40 @@ public class Inicio extends AppCompatActivity {
         RadioMasc= (RadioButton)findViewById(R.id.RadioMasc);
 
         if (NombreUsuario.length()!=0){
-
             if(baseDeDatosAbierta()== true) {
                 Cursor conjuntoRegistro;
-                conjuntoRegistro = baseDatos.rawQuery("select Nombre from Usuarios where Nombre='" + NombreUsuario , null);
+                conjuntoRegistro = baseDatos.rawQuery("select Nombre from Usuarios where Nombre='" + NombreUsuario+ "'" , null);
                 if (conjuntoRegistro.moveToFirst() == true)
                 {
                     Toast.makeText(this, "El nombre de usuario ya existe.", Toast.LENGTH_LONG).show();
                 }else{
-                    if(RadioFem.isSelected() || RadioMasc.isSelected()){
+                    if(!RadioFem.isSelected() && !RadioMasc.isSelected()){
                         if (RadioFem.isSelected()){
                             Sexo= "Femenino";
                         }else{
                             Sexo= "Masculino";
                         }
-                        if (baseDeDatosAbierta()== true){
-                            ContentValues nuevoRegistro;
-                            nuevoRegistro = new ContentValues();
-                            nuevoRegistro.put("Nombre", NombreUsuario);
-                            nuevoRegistro.put("Sexo", Sexo);
-                            nuevoRegistro.put("Puntaje",0 );
-                            baseDatos.insert("Usuarios", null, nuevoRegistro);
-                        }
-
                     }else{
                         Toast.makeText(this, "Seleccione su sexo", Toast.LENGTH_SHORT).show();
+                    }
+                    if (baseDeDatosAbierta()== true){
+                        ContentValues nuevoRegistro;
+                        nuevoRegistro = new ContentValues();
+                        nuevoRegistro.put("Nombre", NombreUsuario);
+                        nuevoRegistro.put("Sexo", Sexo);
+                        nuevoRegistro.put("Puntaje",0 );
+                        baseDatos.insert("Usuarios", null, nuevoRegistro);
+
+                        Bundle Mandotodo;
+                        Mandotodo = new Bundle();
+                        Mandotodo.putString("NombreIngresado", NombreUsuario);
+                        Mandotodo.putString("Sexo", Sexo);
+                        Mandotodo.putInt("Puntaje",0);
+                        Intent LlamadaAActivityJugar;
+                        LlamadaAActivityJugar = new Intent(this, ActivityJuego.class);
+                        LlamadaAActivityJugar.putExtras(Mandotodo);
+                        startActivity(LlamadaAActivityJugar);
+
                     }
                 }
             }
@@ -90,12 +101,12 @@ public class Inicio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
 
-        if(baseDeDatosAbierta()== true) {
+       /* if(baseDeDatosAbierta()== true) {
             Cursor conjuntoRegistro;
             conjuntoRegistro = baseDatos.rawQuery("select Nombre from Usuarios", null);
             if (conjuntoRegistro.moveToFirst() == true){
 
             }
-        }
+        }*/
     }
 }
