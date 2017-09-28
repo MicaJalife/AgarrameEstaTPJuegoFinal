@@ -76,9 +76,9 @@ public class Inicio extends AppCompatActivity {
 
                         Bundle Mandotodo;
                         Mandotodo = new Bundle();
-                        Mandotodo.putString("NombreIngresado", NombreUsuario);
+                        Mandotodo.putString("Nombre", NombreUsuario);
                         Mandotodo.putString("Sexo", Sexo);
-                        Mandotodo.putInt("Puntaje",0);
+                        Mandotodo.putInt("Puntaje", 0);
                         Intent LlamadaAActivityJugar;
                         LlamadaAActivityJugar = new Intent(this, ActivityJuego.class);
                         LlamadaAActivityJugar.putExtras(Mandotodo);
