@@ -57,33 +57,33 @@ public class Inicio extends AppCompatActivity {
                 {
                     Toast.makeText(this, "El nombre de usuario ya existe.", Toast.LENGTH_LONG).show();
                 }else{
-                    if(!RadioFem.isSelected() && !RadioMasc.isSelected()){
-                        if (RadioFem.isSelected()){
+                    if(RadioFem.isChecked() || RadioMasc.isChecked()){
+                        if (RadioFem.isChecked()){
                             Sexo= "Femenino";
                         }else{
                             Sexo= "Masculino";
                         }
+                        if (baseDeDatosAbierta()== true){
+                            ContentValues nuevoRegistro;
+                            nuevoRegistro = new ContentValues();
+                            nuevoRegistro.put("Nombre", NombreUsuario);
+                            nuevoRegistro.put("Sexo", Sexo);
+                            nuevoRegistro.put("Puntaje",0 );
+                            baseDatos.insert("Usuarios", null, nuevoRegistro);
+
+                            Bundle Mandotodo;
+                            Mandotodo = new Bundle();
+                            Mandotodo.putString("Nombre", NombreUsuario);
+                            Mandotodo.putString("Sexo", Sexo);
+                            Mandotodo.putInt("Puntaje", 0);
+                            Intent LlamadaAActivityJugar;
+                            LlamadaAActivityJugar = new Intent(this, ActivityJuego.class);
+                            LlamadaAActivityJugar.putExtras(Mandotodo);
+                            startActivity(LlamadaAActivityJugar);
+
+                        }
                     }else{
                         Toast.makeText(this, "Seleccione su sexo", Toast.LENGTH_SHORT).show();
-                    }
-                    if (baseDeDatosAbierta()== true){
-                        ContentValues nuevoRegistro;
-                        nuevoRegistro = new ContentValues();
-                        nuevoRegistro.put("Nombre", NombreUsuario);
-                        nuevoRegistro.put("Sexo", Sexo);
-                        nuevoRegistro.put("Puntaje",0 );
-                        baseDatos.insert("Usuarios", null, nuevoRegistro);
-
-                        Bundle Mandotodo;
-                        Mandotodo = new Bundle();
-                        Mandotodo.putString("Nombre", NombreUsuario);
-                        Mandotodo.putString("Sexo", Sexo);
-                        Mandotodo.putInt("Puntaje", 0);
-                        Intent LlamadaAActivityJugar;
-                        LlamadaAActivityJugar = new Intent(this, ActivityJuego.class);
-                        LlamadaAActivityJugar.putExtras(Mandotodo);
-                        startActivity(LlamadaAActivityJugar);
-
                     }
                 }
             }

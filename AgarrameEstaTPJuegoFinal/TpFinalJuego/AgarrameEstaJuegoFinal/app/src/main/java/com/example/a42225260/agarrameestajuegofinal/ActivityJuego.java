@@ -13,6 +13,8 @@ public class ActivityJuego extends AppCompatActivity {
     String Sexo;
     Integer Puntaje;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
