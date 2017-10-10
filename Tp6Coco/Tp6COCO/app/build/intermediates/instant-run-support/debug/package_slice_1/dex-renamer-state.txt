@@ -1,0 +1,4 @@
+#Thu Aug 03 11:32:47 ART 2017
+base.0=Z\:\\PROGRAMACION\\Tp6Coco\\Tp6COCO\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+renamed.0=classes.dex
+file.0=Z\:\\PROGRAMACION\\Tp6Coco\\Tp6COCO\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

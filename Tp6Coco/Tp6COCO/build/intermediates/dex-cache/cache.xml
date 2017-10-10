@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\2c3281068fddd475f45a10f889cdf727ce915aed\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_04dcacb8bd45532acaef0f2dbf4b2048f99280db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\9482a2898c74a654165c3cb29d79afa826904be9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_937cbec9c161fedcad24da0d52c65d9770c8a073.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\2de6a7347cebbc771965ba3e6ec5b3476ca7188f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_422fa72719074f259ef636b456fc4425bafc1151\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\9482a2898c74a654165c3cb29d79afa826904be9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_937cbec9c161fedcad24da0d52c65d9770c8a073\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\2de6a7347cebbc771965ba3e6ec5b3476ca7188f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_422fa72719074f259ef636b456fc4425bafc1151.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\2c3281068fddd475f45a10f889cdf727ce915aed\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_04dcacb8bd45532acaef0f2dbf4b2048f99280db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\4780141920f73a7b181b464e680382cecaa85064\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bbd014e4bd80ea9505d77867c19388eeb1c2a1c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_dce0f5dc4ec87302d879250c45fe5f3f72f02917\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\4780141920f73a7b181b464e680382cecaa85064\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_bbd014e4bd80ea9505d77867c19388eeb1c2a1c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_dce0f5dc4ec87302d879250c45fe5f3f72f02917.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\libs\cocos2d-android.v0.82.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bd2a4a7260db13d42c683d262bb5243b3b2ed87">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\2\cocos2d-android.v0.82_9d93f88c802d033b1697f5b0c119681584a95e7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="146b694a3eb56d6ed251094a8998230112ac4b99">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_323f5e32de9aed16ae818bbed14379c02b2fec67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\6328278e33254b599de052a5c715b18c1798a2b9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6efa364fa7b56c8a9532b09abeedf2433decda4c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\libs\cocos2d-android.v0.82.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0bd2a4a7260db13d42c683d262bb5243b3b2ed87">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\cocos2d-android.v0.82_9d93f88c802d033b1697f5b0c119681584a95e7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\6328278e33254b599de052a5c715b18c1798a2b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_6efa364fa7b56c8a9532b09abeedf2433decda4c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5322103fc6a79347c738c57a145aafd8c926b9e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_749f92721abc8a389255a48e6bc4f467c7c672e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\1929a04093c90dd487a4d6f3b831078d9c85a049\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_05247392a4dd8bcc2833bdc8033e33c2ab095e24\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_749f92721abc8a389255a48e6bc4f467c7c672e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\1929a04093c90dd487a4d6f3b831078d9c85a049\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_05247392a4dd8bcc2833bdc8033e33c2ab095e24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\ea925dae9dcf66ba17cb3fa166dcf614d5bc9576\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_af5225a33601380c015c1b8e3d44db7ac70ddf93.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\52dfda9b3ba8e5306532f031dbc205a4bc1e9cf8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17ad15156dc2122b5cac269d6600d02953ce920c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\66112ffc7c8b57a81e141f6c3815cac9c507ae2e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_8ec382ed917d7af0bff0195577f374694ce8429a.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\ea925dae9dcf66ba17cb3fa166dcf614d5bc9576\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af5225a33601380c015c1b8e3d44db7ac70ddf93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\66112ffc7c8b57a81e141f6c3815cac9c507ae2e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ec382ed917d7af0bff0195577f374694ce8429a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\52dfda9b3ba8e5306532f031dbc205a4bc1e9cf8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_17ad15156dc2122b5cac269d6600d02953ce920c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\42586854\.android\build-cache\320770101d25cf09e62f2ee923992912399cee64\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\pre-dexed\debug\classes_a5bf815321fa9f089f41d1657234ca3a5a1a341f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\42586854\.android\build-cache\320770101d25cf09e62f2ee923992912399cee64\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="Z:\PROGRAMACION\Tp6Coco\Tp6COCO\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a5bf815321fa9f089f41d1657234ca3a5a1a341f\classes.dex" />
+    </item>
+
+</items>
